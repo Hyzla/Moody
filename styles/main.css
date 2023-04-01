@@ -99,6 +99,11 @@ button:focus {
   max-width: 325px;
   color: #cdd7ed;
 }
+@media screen and (max-width: 325px) {
+  .login-form {
+    font-size: 0.8rem;
+  }
+}
 .login-form .remember-forgot {
   width: 100%;
   display: flex;
@@ -110,6 +115,11 @@ button:focus {
 @media screen and (min-width: 768px) {
   .login-form .remember-forgot {
     font-size: 1rem;
+  }
+}
+@media screen and (max-width: 325px) {
+  .login-form .remember-forgot {
+    font-size: 0.8rem;
   }
 }
 .login-form .remember-forgot .remember-me {

@@ -5,6 +5,10 @@
   max-width: 325px;
   color: $grey400;
 
+  @media screen and (max-width: 325px) {
+    font-size: 0.8rem;
+  }
+
   .remember-forgot {
     width: 100%;
     @include flexBetween;
@@ -13,6 +17,10 @@
 
     @media screen and (min-width: $tablet) {
       font-size: 1rem;
+    }
+
+    @media screen and (max-width: 325px) {
+      font-size: 0.8rem;
     }
 
     .remember-me {
