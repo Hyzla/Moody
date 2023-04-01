@@ -1,0 +1,82 @@
+form {
+  @include colCenter;
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 325px;
+  color: $grey400;
+
+  @media screen and (max-width: 325px) {
+    font-size: 0.8rem;
+  }
+
+  .remember-forgot {
+    width: 100%;
+    @include flexBetween;
+    gap: 1rem;
+    font-size: 0.875rem;
+
+    @media screen and (min-width: $tablet) {
+      font-size: 1rem;
+    }
+
+    @media screen and (max-width: 325px) {
+      font-size: 0.8rem;
+    }
+
+    .remember-me {
+      @include flexCenter;
+      gap: 0.5rem;
+
+      input[type='checkbox'] {
+        background-color: #fff;
+        margin: 0;
+        max-width: 3rem;
+        width: 1.5rem;
+        font: inherit;
+        accent-color: $primary400;
+      }
+    }
+  }
+
+  .create-account {
+    color: $primary200;
+  }
+
+  a {
+    color: $grey400;
+  }
+}
+
+.btn-circle-form {
+  top: 1.6rem;
+  position: absolute;
+  left: 2rem;
+
+  @media screen and (max-width: 325px) {
+    top: 2rem;
+    left: 1.5rem;
+    width: 2rem;
+    height: 2rem;
+  }
+
+  @media screen and (min-width: $tablet) {
+    left: 6rem;
+  }
+}
+
+.view-password {
+  width: 100%;
+  position: relative;
+
+  img {
+    position: absolute;
+    max-width: 2rem;
+    right: 1rem;
+    top: 0.5rem;
+    cursor: pointer;
+
+    @media screen and (min-width: $tablet) {
+      top: 1rem;
+    }
+  }
+}
