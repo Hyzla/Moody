@@ -9,6 +9,10 @@ input {
   font-weight: 400;
   font-size: 1rem;
   padding: 0 1rem;
+
+  @media screen and (min-width: $tablet) {
+    height: 4rem;
+  }
 }
 
 input:focus,
