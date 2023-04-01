@@ -4,6 +4,7 @@
 @import './tabs';
 @import './inputs';
 @import '../assets/fonts/fonts';
+@import './welcome';
 
 *,
 ::before,
@@ -23,6 +24,8 @@ body {
 }
 
 main {
+  height: 100%;
+  width: 100%;
   padding: 0 1.5rem;
   max-width: 120rem;
   width: 100%;
@@ -58,4 +61,14 @@ h3 {
   @media screen and (min-width: $tablet) {
     font-size: 2rem;
   }
+}
+
+a {
+  position: relative;
+  text-decoration: none;
+  line-height: 100%;
+}
+
+img {
+  width: 100%;
 }

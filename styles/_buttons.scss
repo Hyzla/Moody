@@ -11,4 +11,9 @@
   font-size: 1rem;
   padding: 1rem;
   cursor: pointer;
+  @include flexCenter;
+
+  @media screen and (min-width: $tablet) {
+    height: 4rem;
+  }
 }

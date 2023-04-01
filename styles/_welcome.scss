@@ -1,0 +1,22 @@
+.welcome-section {
+  @include colCenter;
+  gap: 1rem;
+  text-align: center;
+
+  img {
+    max-width: 450px;
+
+    &:nth-child(2) {
+      max-width: 14rem;
+    }
+  }
+
+  h1 {
+    font-weight: 400;
+    font-size: 1.5rem;
+  }
+
+  .btn {
+    margin-top: 1rem;
+  }
+}
