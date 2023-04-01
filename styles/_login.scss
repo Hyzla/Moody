@@ -1,0 +1,40 @@
+.login-form {
+  @include colCenter;
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 325px;
+  color: $grey400;
+
+  .remember-forgot {
+    width: 100%;
+    @include flexBetween;
+    gap: 1rem;
+    font-size: 0.875rem;
+
+    @media screen and (min-width: $tablet) {
+      font-size: 1rem;
+    }
+
+    .remember-me {
+      @include flexCenter;
+      gap: 0.5rem;
+
+      input[type='checkbox'] {
+        background-color: #fff;
+        margin: 0;
+        max-width: 3rem;
+        width: 1.5rem;
+        font: inherit;
+        accent-color: $primary400;
+      }
+    }
+  }
+
+  .create-account {
+    color: $primary200;
+  }
+
+  a {
+    color: $grey400;
+  }
+}
