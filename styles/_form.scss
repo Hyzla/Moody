@@ -4,6 +4,7 @@ form {
   width: 100%;
   max-width: 325px;
   color: $grey400;
+  margin-top: 2rem;
 
   @media screen and (max-width: 325px) {
     font-size: 0.8rem;
@@ -47,6 +48,10 @@ form {
   }
 }
 
+.register-title {
+  margin-bottom: 1rem;
+}
+
 .btn-circle-form {
   top: 1.6rem;
   position: absolute;
@@ -62,6 +67,10 @@ form {
   @media screen and (min-width: $tablet) {
     left: 6rem;
   }
+}
+
+.register-subtitle {
+  text-align: center;
 }
 
 .view-password {
