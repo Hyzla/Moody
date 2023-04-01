@@ -22,6 +22,19 @@
   }
 }
 
+.btn-circle {
+  width: 3rem;
+  height: 3rem;
+  background-color: #61ff9b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6rem;
+}
+.btn-circle img {
+  max-width: 2rem;
+}
+
 .tabs {
   max-width: 4rem;
   width: 4rem;
@@ -40,6 +53,11 @@ input {
   font-weight: 400;
   font-size: 1rem;
   padding: 0 1rem;
+}
+@media screen and (min-width: 768px) {
+  input {
+    height: 4rem;
+  }
 }
 
 input:focus,
@@ -89,7 +107,7 @@ button:focus {
   margin-top: 1rem;
 }
 
-.login-form {
+form {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -100,11 +118,11 @@ button:focus {
   color: #cdd7ed;
 }
 @media screen and (max-width: 325px) {
-  .login-form {
+  form {
     font-size: 0.8rem;
   }
 }
-.login-form .remember-forgot {
+form .remember-forgot {
   width: 100%;
   display: flex;
   align-items: center;
@@ -113,22 +131,22 @@ button:focus {
   font-size: 0.875rem;
 }
 @media screen and (min-width: 768px) {
-  .login-form .remember-forgot {
+  form .remember-forgot {
     font-size: 1rem;
   }
 }
 @media screen and (max-width: 325px) {
-  .login-form .remember-forgot {
+  form .remember-forgot {
     font-size: 0.8rem;
   }
 }
-.login-form .remember-forgot .remember-me {
+form .remember-forgot .remember-me {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
 }
-.login-form .remember-forgot .remember-me input[type=checkbox] {
+form .remember-forgot .remember-me input[type=checkbox] {
   background-color: #fff;
   margin: 0;
   max-width: 3rem;
@@ -136,11 +154,47 @@ button:focus {
   font: inherit;
   accent-color: #61ff9b;
 }
-.login-form .create-account {
+form .create-account {
   color: #a8ffc8;
 }
-.login-form a {
+form a {
   color: #cdd7ed;
+}
+
+.btn-circle-form {
+  top: 1.6rem;
+  position: absolute;
+  left: 2rem;
+}
+@media screen and (max-width: 325px) {
+  .btn-circle-form {
+    top: 2rem;
+    left: 1.5rem;
+    width: 2rem;
+    height: 2rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .btn-circle-form {
+    left: 6rem;
+  }
+}
+
+.view-password {
+  width: 100%;
+  position: relative;
+}
+.view-password img {
+  position: absolute;
+  max-width: 2rem;
+  right: 1rem;
+  top: 0.5rem;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .view-password img {
+    top: 1rem;
+  }
 }
 
 *,
