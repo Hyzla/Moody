@@ -1,0 +1,19 @@
+input {
+  border: none;
+  height: 3rem;
+  width: 100%;
+  max-width: 325px;
+  color: $grey900;
+  background-color: $grey300;
+  border-radius: 4rem;
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 0 1rem;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}

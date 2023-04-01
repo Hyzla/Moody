@@ -1,0 +1,14 @@
+.btn,
+.btn a {
+  border: none;
+  height: 3rem;
+  width: 100%;
+  max-width: 325px;
+  color: $grey900;
+  background-color: $primary400;
+  border-radius: 4rem;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 1rem;
+  cursor: pointer;
+}
