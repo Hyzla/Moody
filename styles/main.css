@@ -89,6 +89,50 @@ button:focus {
   margin-top: 1rem;
 }
 
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 325px;
+  color: #cdd7ed;
+}
+.login-form .remember-forgot {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  font-size: 0.875rem;
+}
+@media screen and (min-width: 768px) {
+  .login-form .remember-forgot {
+    font-size: 1rem;
+  }
+}
+.login-form .remember-forgot .remember-me {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.login-form .remember-forgot .remember-me input[type=checkbox] {
+  background-color: #fff;
+  margin: 0;
+  max-width: 3rem;
+  width: 1.5rem;
+  font: inherit;
+  accent-color: #61ff9b;
+}
+.login-form .create-account {
+  color: #a8ffc8;
+}
+.login-form a {
+  color: #cdd7ed;
+}
+
 *,
 ::before,
 ::after {
@@ -160,4 +204,18 @@ a {
 
 img {
   width: 100%;
+}
+
+.logo {
+  max-width: 225px;
+  margin: 0 auto;
+  display: block;
+  position: absolute;
+  top: 2rem;
+}
+
+.form-title {
+  text-align: center;
+  color: #eff4ff;
+  margin-bottom: 1rem;
 }/*# sourceMappingURL=main.css.map */

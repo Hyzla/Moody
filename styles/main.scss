@@ -5,6 +5,7 @@
 @import './inputs';
 @import '../assets/fonts/fonts';
 @import './welcome';
+@import './login';
 
 *,
 ::before,
@@ -71,4 +72,18 @@ a {
 
 img {
   width: 100%;
+}
+
+.logo {
+  max-width: 225px;
+  margin: 0 auto;
+  display: block;
+  position: absolute;
+  top: 2rem;
+}
+
+.form-title {
+  text-align: center;
+  color: $grey200;
+  margin-bottom: 1rem;
 }
