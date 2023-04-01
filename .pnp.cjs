@@ -31,7 +31,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["dev", "npm:0.1.3"],\
             ["eslint", "npm:8.37.0"],\
             ["eslint-config-airbnb-base", "virtual:bccab13c6ee205b43e68265b2c8f6964a39103d14c902a4ea8ed1b64c558c0ac3da7907988447ae139738c85b529ebbc6733a6519c2defed7e8d87a085531e99#npm:15.0.0"],\
-            ["eslint-plugin-import", "virtual:bccab13c6ee205b43e68265b2c8f6964a39103d14c902a4ea8ed1b64c558c0ac3da7907988447ae139738c85b529ebbc6733a6519c2defed7e8d87a085531e99#npm:2.27.5"]\
+            ["eslint-plugin-import", "virtual:bccab13c6ee205b43e68265b2c8f6964a39103d14c902a4ea8ed1b64c558c0ac3da7907988447ae139738c85b529ebbc6733a6519c2defed7e8d87a085531e99#npm:2.27.5"],\
+            ["gsap", "npm:3.11.5"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -213,7 +214,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["dev", "npm:0.1.3"],\
             ["eslint", "npm:8.37.0"],\
             ["eslint-config-airbnb-base", "virtual:bccab13c6ee205b43e68265b2c8f6964a39103d14c902a4ea8ed1b64c558c0ac3da7907988447ae139738c85b529ebbc6733a6519c2defed7e8d87a085531e99#npm:15.0.0"],\
-            ["eslint-plugin-import", "virtual:bccab13c6ee205b43e68265b2c8f6964a39103d14c902a4ea8ed1b64c558c0ac3da7907988447ae139738c85b529ebbc6733a6519c2defed7e8d87a085531e99#npm:2.27.5"]\
+            ["eslint-plugin-import", "virtual:bccab13c6ee205b43e68265b2c8f6964a39103d14c902a4ea8ed1b64c558c0ac3da7907988447ae139738c85b529ebbc6733a6519c2defed7e8d87a085531e99#npm:2.27.5"],\
+            ["gsap", "npm:3.11.5"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -1335,6 +1337,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/grapheme-splitter-npm-1.0.4-648f2bf509-0c22ec54de.zip/node_modules/grapheme-splitter/",\
           "packageDependencies": [\
             ["grapheme-splitter", "npm:1.0.4"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["gsap", [\
+        ["npm:3.11.5", {\
+          "packageLocation": "./.yarn/cache/gsap-npm-3.11.5-4a6dff472e-0d62c9405e.zip/node_modules/gsap/",\
+          "packageDependencies": [\
+            ["gsap", "npm:3.11.5"]\
           ],\
           "linkType": "HARD"\
         }]\
