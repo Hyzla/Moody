@@ -116,6 +116,7 @@ form {
   width: 100%;
   max-width: 325px;
   color: #cdd7ed;
+  margin-top: 2rem;
 }
 @media screen and (max-width: 325px) {
   form {
@@ -161,6 +162,10 @@ form a {
   color: #cdd7ed;
 }
 
+.register-title {
+  margin-bottom: 1rem;
+}
+
 .btn-circle-form {
   top: 1.6rem;
   position: absolute;
@@ -178,6 +183,10 @@ form a {
   .btn-circle-form {
     left: 6rem;
   }
+}
+
+.register-subtitle {
+  text-align: center;
 }
 
 .view-password {
@@ -281,5 +290,4 @@ img {
 .form-title {
   text-align: center;
   color: #eff4ff;
-  margin-bottom: 1rem;
 }/*# sourceMappingURL=main.css.map */
