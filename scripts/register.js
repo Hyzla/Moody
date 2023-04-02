@@ -9,6 +9,7 @@ form.addEventListener('submit', (e) => {
 const togglePassword = () => {
   const inputType = passwordInput.getAttribute('type') === 'password' ? 'text' : 'password';
   passwordInput.setAttribute('type', inputType);
+  passwordInput.getAttribute('type') === 'password' ? (togglePasswordIcon.src = './assets/icons/eyes.svg') : (togglePasswordIcon.src = './assets/icons/close-eyes.svg');
 };
 
 togglePasswordIcon.addEventListener('click', togglePassword);
