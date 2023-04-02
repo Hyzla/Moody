@@ -21,17 +21,17 @@
       </div>
       <h1 class="form-title register-title">Register</h1>
       <p class="register-subtitle">Discover a New Way to Understand Your Emotions: Register for Moody !</p>
-      <form>
-        <input type="text" placeholder="Username*" />
-        <input type="email" placeholder="E-mail adress*" />
+      <form action="http://localhost:3000/add" id="form" method="post">
+        <input type="text" placeholder="Username*" name="username" />
+        <input type="email" placeholder="E-mail adress*" name="email" />
         <div class="view-password">
           <img src="./assets/icons/eyes.svg" alt="Eyes icon" class="toggle-password" />
-          <input type="password" id="password" placeholder="Password*" />
+          <input type="password" id="password" name="password" placeholder="Password*" />
         </div>
         <input class="btn" type="submit" value="Sign in" />
       </form>
     </main>
-    <script src="./scripts/register.js"></script>
-    <script src="./scripts/gsap.js"></script>
+    <script type="module" src="./scripts/register.js"></script>
+    <script type="module" src="./scripts/gsap.js"></script>
   </body>
 </html>
